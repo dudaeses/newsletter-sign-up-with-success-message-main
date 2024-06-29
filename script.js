@@ -26,7 +26,8 @@ dismissMessage.addEventListener('click', () => { // fecha a mensagem de sucesso 
 });
 
 function setError(index){ // mostra a mensagem de erro
-    campos[index].style.border = '2px solid hsl(4, 100%, 67%)';
+    campos[index].style.border = '1px solid hsl(4, 100%, 67%)';
+    campos[index].style.transition = 'border 0.2s ease';
     spans[index].style.display = 'block'; 
 }
 
