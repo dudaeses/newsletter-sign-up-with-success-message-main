@@ -1,0 +1,49 @@
+const form = document.getElementById('form');
+const formImg = document.getElementById('form-img');
+const campos = document.querySelectorAll('.required');
+const spans = document.querySelectorAll('.span-required');
+const emailRegex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+const successMessage = document.getElementById('success-message');
+const dismissMessage = document.getElementById('dismiss-message');
+const message = document.getElementById('message');
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    if(emailValidate()) {
+        const email = document.getElementById('email').value;
+        successMessage.style.display = 'block';
+        form.style.display = "none"; 
+        formImg.style.display = "none";
+        message.innerHTML = `<p>A confirmation email has been sent to <b>${email}</b>. Please open it and click the button inside to confirm your subscription.</p>`;
+    } else {
+        successMessage.style.display = 'none';
+    }
+});
+
+dismissMessage.addEventListener('click', () => {
+    successMessage.style.display = 'none'; 
+    form.style.display = "block"; 
+});
+
+function setError(index){
+    campos[index].style.border = '1px solid #e63636';
+    spans[index].style.display = 'block'; 
+}
+
+function removeError(index){
+    campos[index].style.border = '';
+    spans[index].style.display = 'none'; 
+}
+
+function emailValidate(){
+    const email = document.getElementById('email').value; 
+    if(!emailRegex.test(email)) {
+        setError(0);
+        return false;  
+    } else {
+        removeError(0);
+        return true;  
+    }
+}
+
+

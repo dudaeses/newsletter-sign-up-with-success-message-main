@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+html{
+    font-family: "Roboto", sans-serif;
+    background-color: hsl(235, 18%, 26%);
+    color: hsl(234, 29%, 20%);
+    font-weight: 400;
+}
+
+h1{
+    font-size: 54px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+ul{
+    line-height: 2rem;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border-color: hsl(231, 7%, 60%);
+    border-width: 2px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+}
+
+.conteudo{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    padding: 1.2rem;
+    width: 850px;
+    display: flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+}
+
+#form{
+    margin: 30px;
+    margin-right: 60px;
+}
+
+#success-message{
+    display: none;
+}
+
+span{
+    display: none;
+}
+
+label{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+span{
+    color: hsl(4, 100%, 67%);
+    font-size: 12px;
+    text-align: right;
+}
+
+
