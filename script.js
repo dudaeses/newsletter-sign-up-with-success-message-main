@@ -26,7 +26,7 @@ dismissMessage.addEventListener('click', () => {
 });
 
 function setError(index){
-    campos[index].style.border = '1px solid #e63636';
+    campos[index].style.border = '2px solid hsl(4, 100%, 67%)';
     spans[index].style.display = 'block'; 
 }
 
