@@ -14,8 +14,11 @@ p {
     line-height: 1.5rem;
 }
 
-main{
+.container {
     display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
 }
 
 .conteudo {
@@ -25,6 +28,7 @@ main{
     padding: 1.2rem;
     border-radius: 30px; 
     margin: auto;
+    text-align: left;
 }
 
 /* formulário */
@@ -32,6 +36,7 @@ main{
 #form {
     margin: 30px;
     margin-right: 60px;
+    margin-top: 40px;
 }
 
 h1 {
@@ -48,6 +53,7 @@ form {
     display: flex;
     flex-direction: column;
     line-height: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 label {
@@ -60,7 +66,7 @@ label {
 input[type="text"] {
     font-family: "Roboto", sans-serif;
     padding: 15px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.4rem;
     border: 1px solid hsl(231, 7%, 60%);
     border-radius: 7px;
     outline: none;
@@ -79,7 +85,7 @@ input[type="submit"] {
     padding: 15px;
     border: 0px;
     border-radius: 7px;
-    transition: background 0.4s ease, box-shadow 0.4s ease; 
+    transition: background 0.4s ease, box-shadow 0.1s ease; 
 }
 
 input[type="submit"]:hover {
@@ -87,11 +93,45 @@ input[type="submit"]:hover {
     box-shadow: 0.1em 1em 2em hsl(4, 75%, 76%); 
 }
 
+li {
+    list-style-type: none;
+    padding-left: 0.7rem;
+    position: relative;
+}
+
+li::before {
+    content: '';
+    display: inline-block;
+    width: 2rem; 
+    height: 1.3rem; 
+    background-image: url('/assets/images/icon-list.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -1.6rem; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+ul {
+    line-height: 2.3rem;
+    padding-left: 1.7rem;
+}
+
 
 /* mensagens */
 
 #success-message {
     display: none;
+    width: 380px;
+    height: 400px;
+    padding: 35px;
+}
+
+#dismiss-message {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 span {
@@ -110,8 +150,9 @@ span {
 .attribution { 
     font-size: 11px;
     text-align: center; 
+    color: hsl(0, 0%, 100%)
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 50%, 48%);
 }
