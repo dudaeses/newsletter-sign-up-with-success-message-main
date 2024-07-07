@@ -1,158 +1,158 @@
 /* geral */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 html {
-    background-color: hsl(235, 18%, 26%);
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    color: hsl(234, 29%, 20%);
+  background-color: hsl(235, 18%, 26%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: hsl(234, 29%, 20%);
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.5rem;
+  font-size: 16px;
+  line-height: 1.5rem;
 }
 
 .container {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .conteudo {
-    display: flex;
-    background-color: hsl(0, 0%, 100%);
-    max-width: 850px;
-    padding: 1.2rem;
-    border-radius: 30px; 
-    margin: auto;
-    text-align: left;
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 850px;
+  padding: 1.2rem;
+  border-radius: 30px;
+  margin: auto;
+  text-align: left;
 }
 
 /* formulário */
 
 #form {
-    margin: 30px;
-    margin-right: 60px;
-    margin-top: 40px;
+  margin: 30px;
+  margin-right: 60px;
+  margin-top: 40px;
 }
 
 h1 {
-    font-size: 54px;
-    font-weight: 700;
-    margin-bottom: 0px;
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 0px;
 }
 
 ul {
-    line-height: 2rem;
+  line-height: 2rem;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.5rem;
-    margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 label {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.2rem;
-    font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.2rem;
+  font-size: 13px;
 }
 
 input[type="text"] {
-    font-family: "Roboto", sans-serif;
-    padding: 15px;
-    margin-bottom: 1.4rem;
-    border: 1px solid hsl(231, 7%, 60%);
-    border-radius: 7px;
-    outline: none;
-    transition: border 0.2s ease;
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+  margin-bottom: 1.4rem;
+  border: 1px solid hsl(231, 7%, 60%);
+  border-radius: 7px;
+  outline: none;
+  transition: border 0.2s ease;
 }
 
-input[type="text"]:hover, input[type="text"]:focus {
-    border: 1px solid hsl(234, 29%, 20%);
+input[type="text"]:hover,
+input[type="text"]:focus {
+  border: 1px solid hsl(234, 29%, 20%);
 }
 
 input[type="submit"] {
-    background-color: hsl(234, 29%, 20%);
-    font-family: "Roboto", sans-serif;
-    color: hsl(0, 0%, 100%);
-    font-weight: 700;
-    padding: 15px;
-    border: 0px;
-    border-radius: 7px;
-    transition: background 0.4s ease, box-shadow 0.1s ease; 
+  background-color: hsl(234, 29%, 20%);
+  font-family: "Roboto", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  padding: 15px;
+  border: 0px;
+  border-radius: 7px;
+  transition: background 0.4s ease, box-shadow 0.1s ease;
 }
 
 input[type="submit"]:hover {
-    background: linear-gradient(40deg, hsl(350, 90%, 62%), hsl(16, 94%, 58%));
-    box-shadow: 0.1em 1em 2em hsl(4, 75%, 76%); 
+  background: linear-gradient(40deg, hsl(350, 90%, 62%), hsl(16, 94%, 58%));
+  box-shadow: 0.1em 1em 2em hsl(4, 75%, 76%);
 }
 
 li {
-    list-style-type: none;
-    padding-left: 0.7rem;
-    position: relative;
+  list-style-type: none;
+  padding-left: 0.7rem;
+  position: relative;
 }
 
 li::before {
-    content: '';
-    display: inline-block;
-    width: 2rem; 
-    height: 1.3rem; 
-    background-image: url('/assets/images/icon-list.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: -1.6rem; 
-    top: 50%; 
-    transform: translateY(-50%); 
+  content: "";
+  display: inline-block;
+  width: 2rem;
+  height: 1.3rem;
+  background-image: url("/assets/images/icon-list.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -1.6rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 ul {
-    line-height: 2.3rem;
-    padding-left: 1.7rem;
+  line-height: 2.3rem;
+  padding-left: 1.7rem;
 }
-
 
 /* mensagens */
 
 #success-message {
-    display: none;
-    width: 380px;
-    height: 400px;
-    padding: 35px;
+  display: none;
+  width: 380px;
+  height: 400px;
+  padding: 35px;
 }
 
 #dismiss-message {
-    width: 100%;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 span {
-    display: none;
+  display: none;
 }
 
 span {
-    color: hsl(4, 100%, 67%);
-    font-size: 11px;
-    font-weight: bolder;
-    text-align: right;
+  color: hsl(4, 100%, 67%);
+  font-size: 11px;
+  font-weight: bolder;
+  text-align: right;
 }
 
 /* footer */
 
-.attribution { 
-    font-size: 11px;
-    text-align: center; 
-    color: hsl(0, 0%, 100%)
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
 }
 
-.attribution a { 
-    color: hsl(228, 50%, 48%);
+.attribution a {
+  color: hsl(228, 50%, 48%);
 }

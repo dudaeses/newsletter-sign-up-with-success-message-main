@@ -36,6 +36,7 @@ function setError(index){ // mostra a mensagem de erro
 
 function removeError(index){ // remove a mensagem de erro
     campo[index].style.border = '';
+    campo[index].style.background = '';
     campo[index].style.color = '';
     span[index].style.display = 'none'; 
 }
