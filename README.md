@@ -28,6 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
+![](/screenshot/screenshot-1.png)
+![](/screenshot/screenshot-2.png)
+![](/screenshot/screenshot-3.png)
+![](/screenshot/screenshot-4.png)
+![](/screenshot/screenshot-5.png)
+![](/screenshot/screenshot-mobile-1.png)
+![](/screenshot/screenshot-mobile-2.png)
+
 ### Links
 
 - Solution URL: [Newsletter sign-up form with success message Solution](https://www.frontendmentor.io/solutions/newsletter-sign-up-form-with-success-message-solution-YuCE9zgg5u)
