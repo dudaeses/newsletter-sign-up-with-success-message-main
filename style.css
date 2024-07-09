@@ -200,13 +200,13 @@ span {
   }
 
   #form-img img {
-    content: url('assets/images/illustration-sign-up-mobile.svg');
+    content: url("assets/images/illustration-sign-up-mobile.svg");
     width: 100%;
-    height: auto;  /* Ensure image height adjusts automatically */
-    object-fit: contain;  /* Ensure image is fully visible */
+    height: auto;  
+    object-fit: contain; 
     max-width: 100%;
     height: auto;
-    display: block; /* Remove space below the image */
+    display: block; 
   }
 
   input[type="text"] {
