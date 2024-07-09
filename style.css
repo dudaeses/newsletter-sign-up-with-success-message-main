@@ -125,7 +125,7 @@ ul {
   display: none;
   width: 380px;
   height: 400px;
-  padding: 35px;
+  padding: 2rem;
 }
 
 #dismiss-message {
@@ -157,15 +157,23 @@ span {
   color: hsl(228, 50%, 48%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 475px) { 
+
+  html, body {
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
   .conteudo {
-    background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column-reverse;
-    padding: 1rem;
     text-align: left;
-    border-radius: 0%;
+    border-radius: 0;
+    width: 100%;
+    padding: 0;  /* Remove padding */
+    margin: 0;   /* Remove margin */
   } 
   
   h1 {
@@ -183,6 +191,7 @@ span {
   input[type="text"] {
     width: 90%;
   }
+
   input[type="submit"] {
     width: 100%;
   }
@@ -190,7 +199,6 @@ span {
   li {
     margin-bottom: 1rem;
   }
-  
   
   ul {
     line-height: 1.5rem;
@@ -202,13 +210,30 @@ span {
     height: 1.3rem;
   }
 
-  img {
+  #form-img img {
     content: url('/assets/images/illustration-sign-up-mobile.svg');
+    width: 100%;
+    height: auto;  /* Ensure image height adjusts automatically */
+    object-fit: contain;  /* Ensure image is fully visible */
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove space below the image */
   }
-
+  
   #form {
     margin: 30px;
     margin-top: 5px;
+  }
+
+  #success-message {
+    width: fit-content; /* Adjusts width to content automatically */
+    padding: 2rem;
+  }
+
+   #dismiss-message {
+    position: fixed;
+    width: 84%;
+    bottom: 20px; 
   }
 
   .conteudo {
@@ -218,5 +243,5 @@ span {
   .attribution {
     display: none;
   }
-
 }
+
