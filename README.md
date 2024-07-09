@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Newsletter sign-up form with success message Solution](https://www.frontendmentor.io/solutions/newsletter-sign-up-form-with-success-message-solution-YuCE9zgg5u)
-- Live Site URL: [Newsletter sign-up form with success message](https://dudaeses.github.io/newsletter-sign-up-with-success-message-main/)
+- Live Site URL: [Newsletter sign-up form with success message Live Site](https://dudaeses.github.io/newsletter-sign-up-with-success-message-main/)
 
 ## My process
 
