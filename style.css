@@ -105,7 +105,7 @@ li::before {
   display: inline-block;
   width: 2rem;
   height: 1.3rem;
-  background-image: url("/assets/images/icon-list.svg");
+  background-image: url("assets/images/icon-list.svg");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -200,7 +200,7 @@ span {
   }
 
   #form-img img {
-    content: url('/assets/images/illustration-sign-up-mobile.svg');
+    content: url('assets/images/illustration-sign-up-mobile.svg');
     width: 100%;
     height: auto;  /* Ensure image height adjusts automatically */
     object-fit: contain;  /* Ensure image is fully visible */
