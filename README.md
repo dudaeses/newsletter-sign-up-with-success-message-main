@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](/screenshots/Screenshot%202024-07-09%20at%2016-21-46%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
-![](/screenshots/Screenshot%202024-07-09%20at%2016-21-28%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
-![](/screenshots/Screenshot%202024-07-09%20at%2016-21-11%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
-![](/screenshots/Screenshot%202024-07-09%20at%2016-20-53%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
 ![](/screenshots/Screenshot%202024-07-09%20at%2016-20-37%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
+![](/screenshots/Screenshot%202024-07-09%20at%2016-20-53%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
+![](/screenshots/Screenshot%202024-07-09%20at%2016-21-11%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
+![](/screenshots/Screenshot%202024-07-09%20at%2016-21-28%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
+![](/screenshots/Screenshot%202024-07-09%20at%2016-21-46%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
 ![](/screenshots/iPhone-13-PRO-MAX-127.0.0.1.png)
 ![](/screenshots/iPhone-13-PRO-MAX-127.0.0.1%20(1).png)
 
