@@ -10,7 +10,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 
 ## Overview
 
@@ -48,12 +47,6 @@ Users should be able to:
 - HTML
 - CSS
 - JavaScript
-
-### What I learned
-
-This project was my first challenge from Frontend Mentor. I tackled it with the goal of applying my frontend knowledge in a real-world scenario. As a result, I encountered many new experiences throughout development. Despite facing some challenges, it was a fun experience.
-
-I began studying JavaScript a few months ago, and my understanding was primarily limited to the fundamentals. This project provided a valuable opportunity to deepen my practical grasp of the language. I still have a lot to learn, but I am proud of the result!
 
 
 
