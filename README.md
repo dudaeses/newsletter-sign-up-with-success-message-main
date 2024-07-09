@@ -28,13 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/screenshot/screenshot-1.png)
-![](/screenshot/screenshot-2.png)
-![](/screenshot/screenshot-3.png)
-![](/screenshot/screenshot-4.png)
-![](/screenshot/screenshot-5.png)
-![](/screenshot/screenshot-mobile-1.png)
-![](/screenshot/screenshot-mobile-2.png)
+
 
 ### Links
 
