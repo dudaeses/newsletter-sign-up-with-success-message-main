@@ -157,7 +157,11 @@ span {
   color: hsl(228, 50%, 48%);
 }
 
+/* mobile */
+
 @media (max-width: 475px) { 
+
+  /* geral */
 
   html, body {
     background-color: hsl(0, 0%, 100%);
@@ -170,10 +174,10 @@ span {
     display: flex;
     flex-direction: column-reverse;
     text-align: left;
-    border-radius: 0;
     width: 100%;
-    padding: 0;  /* Remove padding */
-    margin: 0;   /* Remove margin */
+    padding: 0; 
+    margin: 0;  
+    border-radius: 0;
   } 
   
   h1 {
@@ -188,26 +192,11 @@ span {
     width: 100%;
   }
 
-  input[type="text"] {
-    width: 90%;
-  }
+  /* formulário */
 
-  input[type="submit"] {
-    width: 100%;
-  }
-
-  li {
-    margin-bottom: 1rem;
-  }
-  
-  ul {
-    line-height: 1.5rem;
-    padding-left: 1.7rem;
-  }
-
-  li::before {
-    width: 1.3rem;
-    height: 1.3rem;
+  #form {
+    margin: 30px;
+    margin-top: 5px;
   }
 
   #form-img img {
@@ -219,14 +208,33 @@ span {
     height: auto;
     display: block; /* Remove space below the image */
   }
-  
-  #form {
-    margin: 30px;
-    margin-top: 5px;
+
+  input[type="text"] {
+    width: 90%;
   }
 
+  input[type="submit"] {
+    width: 100%;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
+  li::before {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+  
+  ul {
+    line-height: 1.5rem;
+    padding-left: 1.7rem;
+  }
+
+  /* mensagens */
+
   #success-message {
-    width: fit-content; /* Adjusts width to content automatically */
+    width: fit-content; 
     padding: 2rem;
   }
 
@@ -236,10 +244,8 @@ span {
     bottom: 20px; 
   }
 
-  .conteudo {
-    padding: 0px;
-  }
-
+  /* footer */
+ 
   .attribution {
     display: none;
   }
