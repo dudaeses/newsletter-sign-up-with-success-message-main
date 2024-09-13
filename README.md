@@ -51,6 +51,6 @@ Users should be able to:
 
 ### What I learned
 
-This was my first Frontend Mentor challenge. I started studying JavaScript a few months ago, and until then, my knowledge was limited to the basics. But with this project, I was able to learn more about the language and how it works in practice, not just JavaScript, but frontend development as a whole.
+This was my first Frontend Mentor challenge. I started studying JavaScript a few months ago, and until then, my knowledge was limited to the basics. But with this project I was able to learn more about the language and how it works in practice, not just JavaScript, but frontend development as a whole.
 
 I still have a lot to learn, but I'm proud of the result!
